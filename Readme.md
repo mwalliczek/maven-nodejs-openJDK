@@ -3,9 +3,18 @@
 Alpine based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS` and `NPM`.
 
 ## Versions
+
 | Technology | Version   |
 |------------|-----------|
 | Java       | openJDK11 |
 | Maven      | 3.6.3     |
 | NodeJS     | 14.17.1   |
 | NPM     | 7.19.1   |
+
+## To use as base image
+
+In your `Dockerfile`:
+
+```
+FROM devayansarkar/maven_java_nodejs:latest
+```
