@@ -15,6 +15,6 @@ Alpine based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS
 
 In your `Dockerfile`:
 
-```
+```docker
 FROM devayansarkar/maven_java_nodejs:latest
 ```
