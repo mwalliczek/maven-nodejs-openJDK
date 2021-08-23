@@ -9,7 +9,7 @@ Alpine based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS
 | Java       | openJDK11 |
 | Maven      | 3.6.3     |
 | NodeJS     | 14.17.1   |
-| NPM     | 7.20.3   |
+| NPM     | 7.21.0   |
 
 ## To use as base image
 
