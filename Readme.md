@@ -1,4 +1,4 @@
-# Base image for Java 11, Maven 3.x, NodeJS 14 and NPM 7.x
+# Base image for Java 11, Maven 3.x, NodeJS 16 and NPM 7.x
 
 Alpine based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS` and `NPM`.
 
@@ -8,7 +8,7 @@ Alpine based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS
 |------------|-----------|
 | Java       | openJDK11 |
 | Maven      | 3.6.3     |
-| NodeJS     | 14.17.1   |
+| NodeJS     | 16   |
 | NPM     | 7.24.2   |
 
 ## To use as base image
@@ -16,5 +16,5 @@ Alpine based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS
 In your `Dockerfile`:
 
 ```docker
-FROM devayansarkar/maven_java_nodejs:latest
+FROM walliczek/maven_java_nodejs:latest
 ```
