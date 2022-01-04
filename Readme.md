@@ -1,6 +1,6 @@
 # Base image for Java 11, Maven 3.x, NodeJS 16 and NPM 7.x
 
-Alpine based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS` and `NPM`.
+Ubuntu based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS` and `NPM`. Build for amd64, arm64 and arm/v7.
 
 ## Versions
 
