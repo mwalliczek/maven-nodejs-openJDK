@@ -16,5 +16,5 @@ Ubuntu based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS
 In your `Dockerfile`:
 
 ```docker
-FROM walliczek/maven_java_nodejs:latest
+FROM mwalliczek/maven_java_nodejs:latest
 ```
