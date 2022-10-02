@@ -9,7 +9,7 @@ Ubuntu based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS
 | Java       | openJDK11 |
 | Maven      | 3.6.3     |
 | NodeJS     | 16   |
-| NPM     | 8.3.1   |
+| NPM     | 8.15.0   |
 
 ## To use as base image
 
