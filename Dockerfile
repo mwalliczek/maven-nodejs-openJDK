@@ -12,8 +12,5 @@ RUN apt-get install -qy nodejs
 # Setting up NodeJs
 RUN npm install -g npm@8.15.0
 
-# set .testcontainers.properties
-RUN echo "testcontainers.reuse.enable=true" > /root/.testcontainers.properties
-
 # Command prompt
 CMD /bin/bash
