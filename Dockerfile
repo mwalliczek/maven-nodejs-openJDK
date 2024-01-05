@@ -6,7 +6,7 @@ RUN apt-get update && \
     apt-get install -qy curl && \
     apt-get install -qy openjdk-11-jdk-headless maven
     
-RUN curl -sL https://deb.nodesource.com/setup_16.x | sh
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash
 RUN apt-get install -qy nodejs
 
 # Setting up NodeJs

@@ -1,4 +1,4 @@
-# Base image for Java 11, Maven 3.x, NodeJS 16 and NPM 8.x
+# Base image for Java 11, Maven 3.x, NodeJS 20 and NPM 8.x
 
 Ubuntu based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS` and `NPM`. Build for `amd64`, `arm64` and `arm/v7`.
 
@@ -8,7 +8,7 @@ Ubuntu based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS
 |------------|-----------|
 | Java       | openJDK11 |
 | Maven      | 3.6.3     |
-| NodeJS     | 16   |
+| NodeJS     | 20   |
 | NPM     | 8.15.0   |
 
 ## To use as base image
