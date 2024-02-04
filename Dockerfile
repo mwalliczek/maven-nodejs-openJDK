@@ -4,7 +4,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
     apt-get install -qy curl && \
-    apt-get install -qy openjdk-11-jdk-headless maven
+    apt-get install -qy openjdk-17-jdk-headless maven
     
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash
 RUN apt-get install -qy nodejs
