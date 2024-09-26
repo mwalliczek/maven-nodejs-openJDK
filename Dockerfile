@@ -10,7 +10,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash
 RUN apt-get install -qy nodejs
 
 # Setting up NodeJs
-RUN npm install -g npm@8.15.0
+RUN npm install -g npm
 
 # Command prompt
 CMD /bin/bash
