@@ -1,4 +1,4 @@
-# Base image for Java 21, Maven 3.x, NodeJS 20 and NPM 8.x
+# Base image for Java 21/17, Maven 3.x, NodeJS 24 and NPM
 
 Ubuntu based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS` and `NPM`. Build for `amd64` and `arm64`.
 
@@ -6,10 +6,12 @@ Ubuntu based `Docker` image for running apps that need `Java`, `Maven` , `NodeJS
 
 | Technology | Version   |
 |------------|-----------|
-| Java       | openJDK21 |
-| Maven      | 3.6.3     |
-| NodeJS     | 20   |
-| NPM     | 8.15.0   |
+| Java       | openJDK 21 (`latest`) / openJDK 17 (`17`) |
+| Maven      | 3.8.x (Ubuntu 24.04) |
+| NodeJS     | 24 (LTS)  |
+| NPM        | latest    |
+
+The Java and NodeJS major versions are build arguments (`JDK_VERSION`, `NODE_MAJOR`); the GitHub workflow builds both tags.
 
 ## To use as base image
 

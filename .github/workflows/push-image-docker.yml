@@ -8,6 +8,13 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - jdk: 21
+            tag: latest
+          - jdk: 17
+            tag: 17
     steps:
       - name: Set up Docker
         uses: docker/setup-qemu-action@master
@@ -30,4 +37,6 @@ jobs:
         with:
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: mwalliczek/maven_java_nodejs:17
+          build-args: |
+            JDK_VERSION=${{ matrix.jdk }}
+          tags: mwalliczek/maven_java_nodejs:${{ matrix.tag }}
