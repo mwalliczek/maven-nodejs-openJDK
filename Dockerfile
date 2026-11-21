@@ -1,8 +1,8 @@
-FROM ubuntu:24.04
+FROM ubuntu:26.04
 
 ARG DEBIAN_FRONTEND=noninteractive
-ARG JDK_VERSION=21
-ARG NODE_MAJOR=24
+ARG JDK_VERSION=25
+ARG NODE_MAJOR=26
 
 RUN apt-get update && \
     apt-get install -qy curl && \
